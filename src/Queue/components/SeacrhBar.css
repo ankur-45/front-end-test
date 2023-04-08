@@ -1,0 +1,7 @@
+.search-bar {
+    font-family: "Ubuntu",sans-serif;
+    display: block;
+    margin: auto;
+    width: 250px;
+    line-height: 30px;
+}
