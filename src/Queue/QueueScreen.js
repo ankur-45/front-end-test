@@ -29,7 +29,7 @@ export default class extends Component {
       30000
     );
   }
-
+  // Refereshes the component every 30 seconds
   componentWillUnmount() {
     clearInterval(this.interval);
   }
@@ -48,6 +48,7 @@ export default class extends Component {
         </div>
       );
     }
+    // To filter out the customers based on the letters in a search bar
     const filteredCustomers = this.state.customers.filter((customerName) =>
       customerName.customer.name
         .toLowerCase()
