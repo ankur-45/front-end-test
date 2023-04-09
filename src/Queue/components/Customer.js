@@ -8,7 +8,7 @@ import md5 from 'md5';
 export default (props) => {
   const { customer } = props;
   const expectedTime = customer.expectedTime;
-
+  // Function to generate hash and use it as a param for image
   const emailHash = (customer) => {
     const emailAddress = customer.customer.emailAddress;
     const trimmedString =
